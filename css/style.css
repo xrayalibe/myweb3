@@ -146,7 +146,7 @@ header .header-text {
     border-radius: 2px;
     position: fixed;
     z-index: 10;
-    right: -15%;
+    right: -40%;
 
 }
 
@@ -546,5 +546,6 @@ footer .copy-right p {
     right: 0;
     bottom: 0;
     left: 0;
+
 
 }
