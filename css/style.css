@@ -1,0 +1,550 @@
+@font-face {
+    font-family: 'vazir';
+    src: url("../fonts/vazir-font-v16.1.0/Vazir-Bold.eot") format('eot'),
+        url('../fonts/vazir-font-v16.1.0/Vazir-Bold.ttf') format('ttf'),
+        url('../fonts/vazir-font-v16.1.0/Vazir-Bold.woff') format('woff'),
+        url("../fonts/vazir-font-v16.1.0/Vazir-Bold.woff2") format("woff2");
+
+}
+
+body {
+    font-family: 'vazir';
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+input {
+    font-family: "vazir";
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Header */
+
+header {
+    background-image: url('../images/bakcground-header.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+header svg {
+    font-size: xx-large;
+    color: white;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+header .hambur-icon {
+    width: 20%;
+    height: 100%;
+    float: right;
+    display: none;
+
+
+}
+
+
+header .navigation {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 80px;
+}
+
+
+header .navigation ul {
+    width: 50%;
+    float: right;
+    height: 100%;
+    line-height: 5;
+    list-style: none;
+}
+
+header .navigation ul li {
+    display: inline-block;
+    margin: 3px 15px 3px 15px;
+
+}
+
+
+header .navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+header .navigation .logo {
+    float: left;
+    width: 50%;
+    text-align: left;
+    height: 100%;
+
+}
+
+header .navigation .logo img {
+    width: 70px;
+    margin-top: 15px;
+    padding-left: 10%;
+
+
+}
+
+header .header-text {
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+.header-text h1 {
+    font-size: xx-large;
+}
+
+.header-text p {
+    font-size: medium;
+}
+
+
+#nav-responsive {
+    float: right;
+    width: 15%;
+    height: 100vh;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+    position: fixed;
+    z-index: 10;
+    right: -15%;
+
+}
+
+#nav-responsive ul {
+    padding-right: 20%;
+    padding-bottom: 20%;
+    list-style: none;
+
+}
+
+#nav-responsive ul li {
+    padding-top: 20%;
+
+
+}
+
+#nav-responsive ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* our story */
+
+#our-story {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+    margin-bottom: 5%;
+
+
+}
+
+
+#our-story .container {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+#our-story .story-text {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    padding-top: 93px;
+
+}
+
+#our-story .story-text h1 {
+    font-size: xx-large;
+}
+
+#our-story .story-text p {
+    font-size: medium;
+    line-height: 30px;
+    width: 85%;
+    margin: auto;
+}
+
+#our-story .story-img {
+    width: 50%;
+    height: 85%;
+    float: left;
+    object-fit: cover;
+    text-align: center;
+    padding-top: 105px;
+
+}
+
+#our-story .story-img img {
+    width: 90%;
+    border-radius: 4%;
+
+
+}
+
+/* sweet */
+
+#sweet {
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../images/backtwo.jpg");
+    position: relative;
+
+}
+
+#sweet .container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+#sweet .sweet-text {
+    text-align: center;
+    color: white;
+    padding: 10% 1%;
+}
+
+#sweet .sweet-text h1 {
+    font-size: xx-large;
+}
+
+#sweet .sweet-text p {
+    font-size: medium;
+    width: 75%;
+    margin: auto;
+}
+
+/* Menu */
+
+#menu {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    padding: 5% 0;
+}
+
+#menu .container {
+    width: 85%;
+    height: fit-content;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+#menu .menu-text {
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+    padding-top: 2%;
+    float: right;
+
+}
+
+#menu .menu-text h1 {
+    font-size: xx-large;
+}
+
+#menu .menu-text p {
+    font-size: 13px;
+    width: 77%;
+    margin: auto;
+    line-height: 30px;
+    margin-bottom: 5%;
+}
+
+#menu .menu-text a {
+    text-decoration: none;
+    border-bottom: 2px dashed red;
+    color: black;
+
+}
+
+
+#menu .menu-pics {
+    width: 50%;
+    height: fit-content;
+    float: left;
+
+}
+
+#menu .menu-pics ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+
+
+}
+
+#menu .menu-pics ul li {
+    width: 48%;
+    height: 40%;
+    float: right;
+    padding: 1%;
+
+}
+
+#menu .menu-pics img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+
+
+}
+
+/* Hot */
+
+#hot {
+    width: 100%;
+    height: fit-content;
+    background-image: url("../images/hot.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#hot .container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#hot .hot-text {
+    text-align: center;
+    color: white;
+    padding: 5.5% 3%;
+}
+
+#hot .hot-text h1 {
+    font-size: 50px;
+}
+
+#hot .hot-text p {
+    font-size: 17px;
+}
+
+/* Delight */
+
+#delight {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    padding: 8% 0%;
+
+}
+
+#delight .container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+#delight .delight-text {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    padding-top: 6%;
+}
+
+
+#delight .delight-text h1 {
+    font-size: xx-large;
+}
+
+#delight .delight-text p {
+    font-size: 13px;
+    line-height: 30px;
+    width: 75%;
+    margin: auto;
+}
+
+#delight .delight-pics {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 4%;
+
+
+}
+
+
+
+#delight .delight-pics img {
+    width: 45%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 2%;
+
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    background-color: #141414;
+    position: relative;
+    padding-top: 7%;
+}
+
+footer .container {
+    width: 85%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+footer .about-footer {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    margin-bottom: 4%;
+}
+
+footer .about-footer h1 {
+    font-size: xx-large;
+}
+
+footer .about-footer p {
+    font-size: 13px;
+    line-height: 30px;
+    width: 65%;
+    margin: auto;
+}
+
+footer .social {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+footer .social .contact-us {
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+
+}
+
+footer .social .contact-us ul {
+    list-style: none;
+}
+
+footer .social .contact-us ul li {
+    display: inline;
+    padding: 2%;
+}
+
+footer .social .contact-us a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+footer .social .contact-us a svg {
+    font-size: x-large;
+
+}
+
+
+footer .social .news {
+    width: 50%;
+    float: right;
+    text-align: center;
+    color: white;
+
+
+
+}
+
+
+footer .copy-right {
+    color: black;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background-color: #333;
+    margin-top: 5%;
+}
+
+footer .copy-right h4 {
+    font-size: 20px;
+    margin: 2%;
+    margin-bottom: 1%;
+
+}
+
+footer .copy-right p {
+    font-size: 10px;
+    padding-bottom: 1%;
+    margin: 0;
+}
+
+
+#click-back {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}

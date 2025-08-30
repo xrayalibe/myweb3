@@ -1,0 +1,280 @@
+@media screen and (max-width : 930px) {
+    header .navigation ul {
+        display: none;
+    }
+
+    header .hambur-icon {
+        display: block;
+
+    }
+
+    header .hambur-icon svg {
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width : 390px) {
+    .header-text h1 {
+        font-size: larger;
+    }
+
+    .header-text p {
+        font-size: x-small;
+    }
+
+}
+
+@media screen and (max-width : 750px) {
+    header {
+        height: 70vh;
+    }
+
+}
+
+@media screen and (max-width : 450px) {
+    header {
+        height: 65vh;
+    }
+}
+
+/* Our Story */
+
+@media screen and (max-width : 1200px) {
+    #our-story .story-text p {
+        font-size: smaller;
+
+    }
+
+
+}
+
+@media screen and (max-width : 1000px) {
+    #our-story .story-text h1 {
+        font-size: x-large;
+
+    }
+
+    #our-story .story-text p {
+        font-size: small;
+
+    }
+
+}
+
+@media screen and (max-width : 900px) {
+
+    #our-story .story-text {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        padding-top: 10px;
+    }
+
+    #our-story .story-img {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        padding-top: 10px;
+
+
+    }
+
+    #our-story .story-img img {
+        width: 70%;
+    }
+
+    #our-story .container {
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    #our-story .story-img img {
+        width: 85%;
+    }
+}
+
+
+
+/* sweet */
+
+
+
+
+@media screen and (max-width : 800px) {
+    #sweet .sweet-text h1 {
+        font-size: x-large;
+    }
+
+    #sweet .sweet-text p {
+        font-size: smaller;
+        width: 85%;
+    }
+
+
+    #sweet .sweet-text {
+        padding: 6% 1%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    #sweet .sweet-text h1 {
+        font-size: large;
+    }
+
+    #sweet .sweet-text p {
+        font-size: x-small;
+        width: 85%;
+    }
+
+}
+
+
+/* Menu */
+
+@media screen and (max-width : 1000px) {
+    #menu .menu-text {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    #menu .menu-pics {
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+
+    #menu .container {
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    #menu .menu-text p {
+        margin-bottom: 2%;
+    }
+
+}
+
+
+@media screen and (max-width : 400px) {
+    #menu .menu-text h1 {
+        font-size: x-large;
+    }
+
+    #menu .menu-text p {
+        font-size: 11px;
+    }
+
+    #menu .menu-text a {
+        font-size: 13px;
+
+    }
+}
+
+@media screen and (max-width : 350px) {
+    #menu .menu-text p {
+        font-size: 10px;
+    }
+
+}
+
+/* delight */
+
+@media screen and (max-width : 1160px) {
+    #delight .delight-text {
+        padding-top: 3%;
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+
+    #delight .delight-pics {
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width : 520px) {
+    #delight .delight-text h1 {
+        font-size: x-large;
+    }
+
+    #delight .delight-text p {
+        font-size: 10px;
+        line-height: 30px;
+
+    }
+}
+
+/* Footer */
+
+@media screen and (max-width : 520px) {
+    footer .social .contact-us a svg {
+        font-size: large;
+
+    }
+
+    footer .about-footer p {
+        font-size: 11px;
+        line-height: 25px;
+
+    }
+
+    footer .about-footer h1 {
+        font-size: x-large;
+    }
+
+    footer .social .contact-us h2 {
+        font-size: 16px;
+    }
+
+    footer .social .news h2 {
+        font-size: 16px;
+    }
+
+    input {
+        font-family: "vazir";
+        height: 20px;
+        width: 110px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    footer .social .contact-us ul {
+        padding-top: 3.5%;
+    }
+
+    .social {
+        padding-top: 4%;
+    }
+
+    footer .container {
+        width: 90%;
+    }
+}
+
+/* Nav Response */
+@media screen and (max-width : 850px){
+    #nav-responsive ul li a{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width : 570px){
+    #nav-responsive {
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width : 400px){
+    #nav-responsive {
+        width: 30%;
+    }
+
+}
